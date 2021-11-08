@@ -1,10 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 li, a, button{
     font-family: 'Montserrat', sans-serif;
@@ -12,6 +13,7 @@ li, a, button{
     font-size: 12px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 header img{
     cursor: pointer;
@@ -43,13 +45,13 @@ header{
     display: inline-block;
     font-size: 12px;
 }
-.jumbo-title{
-    text-align: left;
-    font-size: 75px;
-}
 .container{
     width: 90%;
     margin: 0 auto;
+}
+.jumbo-title{
+    text-align: left;
+    font-size: 75px;
 }
 .jumbo-content-text{
     width: 34%;
@@ -74,8 +76,75 @@ header{
 }
 #jumbo-btn{
     margin-bottom: 10px;
-    cursor: pointer;
+    font-size: 14px;
 }
 .fas{
     font-size: 50px;
+}
+.subscription-plan h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.subscription-plan{
+    padding-top: 100px;
+    width: 70%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.buynow{
+    color: #0061ff;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sub-table{
+    width: 40px;
+    color: 3px darkgray solid;
+    margin-right: 10px;
+}
+.fa-check{
+    color: #0061ff;
+    margin-right: 3px;
+}
+.container-plans{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;  
+}
+.container-plans i, .col-two i{
+    padding-right: 5px;
+}
+.col{
+    max-width: 30%;
+    height: 800px;
+    border: 1px darkgray solid;
+}
+.user{
+    padding: 10px;
+    border-bottom: 1px solid darkgray;
+    text-align: center;
+}
+.col h3, .col h4, .col p, .col-two h3, .col-two h4, .col-two p{
+    padding: 10px 20px;
+}
+.col h3, .col-two h3{
+    font-size: 18px;
+}
+.free-try{
+    transform: translate(50px, 0px);
+    margin: 15px 0;
+}
+.col-two{
+    border: 1px solid darkgray;
+    max-width: 70%;
+    height: 200px;
+    margin: 20px auto;
+}
+.ppm{
+    font-size: 12px;
+    color: darkgray;
 }
