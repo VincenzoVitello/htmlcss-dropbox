@@ -7,6 +7,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+html{
+    scroll-behavior: smooth;
+}
 li, a, button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -147,4 +150,27 @@ header{
 .ppm{
     font-size: 12px;
     color: darkgray;
+}
+.partners{
+    margin: 60px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.partner-img img{
+    height: 400px;
+}
+.partner-text{
+    max-width: 45%;
+    margin-left: 40px;
+}
+.partner-text h3{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.partner-text a button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 30px;
 }
