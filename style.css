@@ -245,13 +245,98 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
+    color: white;
 }
 #green{background-color: #a2d39b;}
+#green:hover{
+    border: 10px solid #d0e9cd;
+}
 #brown{background-color: #61082b;}
+#brown:hover{
+    border: 10px solid #5f2039;
+}
 #blue{background-color: #0093ce;}
+#blue:hover{
+    border: 10px solid #69b0cc;
+}
 #red{background-color: #ff1c1c;}
+#red:hover{
+    border: 10px solid #ff6969;
+}
 #red-two{background-color: #d5001f;}
+#red-two:hover{
+    border: 10px solid #d3455a;
+}
 #azure{background-color: #b4d0e7;}
+#azure:hover{
+    border: 10px solid #dddddd;
+}
 #navy{background-color: #0d2481;}
+#navy:hover{
+    border: 10px solid #44528a;
+}
 #yellow{background-color: #ffd830;}
+#yellow:hover{ border: 10px solid #ffec97;
+}
+#team-number{
+    width: 70%;
+    position: relative;
+    padding: 90px;
+}
+#teams{
+    position: absolute;
+    left: 188px;
+}
+#teams h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#teams a{
+    color: #0061ff;
+    text-decoration: underline;
+}
+.trynow{
+    background-color: #b4d0e7;
+    height: 200px;
+    position: relative;
 
+}
+.trybtn button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.trysection h1{
+    color: #61082b;
+    font-size: 30px;
+}
+.trysection div h1{
+    float: left;
+}
+.trysection div a button{
+    float: right;
+}
+.trysection{
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.faq-section{
+    width: 70%;
+    position: relative;
+}
+.faq-absolute{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.on_off, .faq .fa-circle-arrow-up{
+    display: none;
+}
+.faq:hover .on_off, .faq:hover .fa-circle-arrow-up{ 
+    display: block;
+}
+.faq:hover .fa-circle-arrow-down{
+    display: none;
+}
