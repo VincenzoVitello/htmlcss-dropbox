@@ -322,21 +322,70 @@ header{
     top: 40%;
     left: 15%;
 }
+/* sezione faq */
+
 .faq-section{
     width: 70%;
-    position: relative;
+    height: 300px;
+    margin: 0 auto;
+    height: 600px;
 }
-.faq-absolute{
-    position: absolute;
-    top: 50px;
-    left: 50px;
+
+.faq-section h1{
+    font-size: 25px;
+    padding: 40px 0;
+    border-bottom: 1px solid black;
 }
-.on_off, .faq .fa-circle-arrow-up{
-    display: none;
+.faq h2{
+    padding: 10px 0;
+    font-size: 16px;
 }
-.faq:hover .on_off, .faq:hover .fa-circle-arrow-up{ 
-    display: block;
+.faq{
+    border-bottom: 1px solid black;
+    padding: 20px 0;
 }
-.faq:hover .fa-circle-arrow-down{
-    display: none;
+/* footer section */
+footer{
+    background-color: black;
+    color: white;
+}
+footer .container{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section{
+    display: inline-block;
+    margin-top: 30px;
+    height: 150px;
+}
+.footer-section h5{
+    padding: 15px 0;
+}
+.footer-section p{
+    padding: 0px 0px 5px 0px;
+    cursor: pointer;
+}
+.footer-section p:hover{
+    text-decoration: underline;
+}
+#language{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+#language hr{
+    width: 100px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+select{
+    background-color: black;
+    border: none;
+    color: lightslategray;
+}
+.fa-earth-americas{
+    color: lightslategray;
 }
